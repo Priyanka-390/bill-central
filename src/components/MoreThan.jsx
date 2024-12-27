@@ -16,6 +16,7 @@ const MoreThan = () => {
           companies trust bill central{" "}
         </h2>
         <Swiper
+          className="linear-slider"
           modules={[Autoplay]}
           slidesPerView={3}
           spaceBetween={20}
