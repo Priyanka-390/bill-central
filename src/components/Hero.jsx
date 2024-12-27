@@ -43,7 +43,7 @@ const Hero = () => {
                 className="xl:w-[558px] xl:h-[768px] rounded-[4px] custom-lg:h-[700px] h-[350px]  max-sm:h-[300px] object-cover object-top md:w-[450px] "
                 src="/assets/images/webp/hero-img.webp"
                           />
-                          <Image src="/assets/images/svg/hero-ellipse.svg" alt="hero-ellipse" className="absolute top-[-5%] max-custom-lg:hidden -z-10 right-0 xl:right-[-10%]" width={112} height={187}/>
+                          <Image src="/assets/images/svg/hero-ellipse.svg" alt="hero-ellipse" className="absolute top-[-7%] max-custom-lg:hidden w-[187px] h-[112px] -z-10 right-0 pointer-events-none xl:right-[-11%]" width={112} height={187}/>
             </div>
           </div>
         </div>
