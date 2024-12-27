@@ -75,7 +75,7 @@ const NavBar = () => {
                   <span className="flex bg-white h-1 rounded-3xl duration-300 w-6 mt-1"></span>
                 </div>
               ) : (
-                <div className="z-20 relative">
+                <div className="z-20 pointer-events-auto relative">
                   <span className="flex bg-white absolute rounded-3xl -left-7 duration-300 top-1 rotate-45 h-[3px] w-6"></span>
                   <span className="flex bg-white absolute rounded-3xl -left-7 duration-300 -rotate-45 h-[3px] w-6 mt-1"></span>
                 </div>

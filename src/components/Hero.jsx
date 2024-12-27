@@ -7,11 +7,11 @@ const Hero = () => {
   return (
     <div className="bg-hero custom-lg:h-[810px] bg-cover max-sm:bg-center bg-no-repeat">
       <NavBar />
-      <div className=" xl:py-[122px] xl:pr-0 pr-5 lg:py-28 md:py-20 py-14">
+      <div className=" xl:py-[122px] xl:pr-0 custom-lg::pr-5 lg:py-28 md:py-20 py-14">
         <div className="container relative z-0 max-w-[1140px] xl:px-0">
           <div className="flex max-custom-lg:flex-col max-lg:gap-10">
             <div>
-              <h1 className="xl:text-custom-xl lg:text-5xl md:text-4xl text-3xl capitalize !leading-110 max-custom-lg:max-w-[600px] max-custom-lg:text-center max-custom-lg:mx-auto max-w-[470px] lg:max-w-[600px] text-white font-normal">
+              <h1 className="xl:text-custom-xl tracking-[1.5px] lg:text-5xl md:text-4xl text-3xl capitalize !leading-110 max-custom-lg:max-w-[600px] max-custom-lg:text-center max-custom-lg:mx-auto max-w-[470px] lg:max-w-[600px] text-white font-normal">
                 Easily Compare{" "}
                 <span className="font-bold">Energy, Gas, and Internet</span>{" "}
                 Plans
