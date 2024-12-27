@@ -10,7 +10,8 @@ export default {
       colors: {
         "deep-blue": "#00171F",
         "sky-blue": "#00A8E8",
-        "light-white":"#FEFEFE",
+        "light-white": "#FEFEFE",
+        "dark-blue":"#003459",
       },
       fontSize: {
         "custom-xl": "64px",

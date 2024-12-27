@@ -11,7 +11,7 @@ const MoreThan = () => {
   return (
     <div className="py-[54px]">
       <div className="max-w-[1180px] px-5 mx-auto container">
-        <h2 className=" text-2xl max-custom-lg:text-center max-custom-lg:mx-auto sm:text-3xl md:text-custom-3xl text-purssian-blue leading-110 font-normal max-w-[548px] mb-6 sm:mb-10 md:mb-12 lg:mb-16">
+        <h2 className=" text-2xl max-custom-lg:text-center max-custom-lg:mx-auto sm:text-3xl md:text-custom-3xl capitalize text-dark-blue leading-110 font-normal max-w-[548px] mb-6 sm:mb-10 md:mb-12 lg:mb-16">
           More than <span className="text-sky-blue font-bold">80,000</span>+
           companies trust bill central{" "}
         </h2>
