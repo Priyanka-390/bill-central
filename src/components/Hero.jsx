@@ -29,7 +29,7 @@ const Hero = () => {
                 />
                 <button
                   aria-label="contact us"
-                  className="flex items-center group hover:bg-black duration-300 gap-4 font-bold text-base !leading-115 text-white bg-sky-blue w-full max-w-[137px] py-[12px] ps-5 pe-[3px] rounded-[0_50px_50px_20px]"
+                  className="flex items-center group max-w-[137px] hover:bg-black duration-300 gap-1 font-bold text-base !leading-115 text-white bg-sky-blue w-full py-[12px] ps-5 pe-[3px] rounded-[0_50px_50px_20px]"
                 >
                   Compare
                   <Icons icon="heroInputIcon" />
