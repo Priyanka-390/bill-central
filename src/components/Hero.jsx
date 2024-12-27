@@ -21,7 +21,7 @@ const Hero = () => {
                 ease. Our platform simplifies your search, letting you compare
                 providers and make informed decisions, all in one place.
               </p>
-              <div className="flex justify-between max-custom-lg:mx-auto  bg-white p-[9px_9px_9px_0] max-w-[476px] w-full rounded-[0_100px_100px_20px]">
+              <div className="flex justify-between border border-solid border-pale-grey max-custom-lg:mx-auto  bg-white p-[9px_9px_9px_0] max-w-[476px] w-full rounded-[0_100px_100px_20px]">
                 <input
                   type="mail"
                   className="w-full font-normal text-base !leading-110 outline-none text-deep-blue text-opacity-50 ps-5 pe-2"
@@ -42,8 +42,14 @@ const Hero = () => {
                 height={768}
                 className="xl:w-[558px] xl:h-[768px] rounded-[4px] custom-lg:h-[700px] h-[350px]  max-sm:h-[300px] object-cover object-top md:w-[450px] "
                 src="/assets/images/webp/hero-img.webp"
-                          />
-                          <Image src="/assets/images/svg/hero-ellipse.svg" alt="hero-ellipse" className="absolute top-[-7%] max-custom-lg:hidden w-[187px] h-[112px] -z-10 right-0 pointer-events-none xl:right-[-11%]" width={112} height={187}/>
+              />
+              <Image
+                src="/assets/images/svg/hero-ellipse.svg"
+                alt="hero-ellipse"
+                className="absolute top-[-7%] max-custom-lg:hidden w-[187px] h-[112px] -z-10 right-0 pointer-events-none xl:right-[-11%]"
+                width={112}
+                height={187}
+              />
             </div>
           </div>
         </div>

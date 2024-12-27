@@ -11,7 +11,8 @@ export default {
         "deep-blue": "#00171F",
         "sky-blue": "#00A8E8",
         "light-white": "#FEFEFE",
-        "dark-blue":"#003459",
+        "dark-blue": "#003459",
+        "pale-grey": "#00000033"
       },
       fontSize: {
         "custom-xl": "64px",
